@@ -3,7 +3,7 @@
 
 <img src="polaroids/avatar.png" width="25%">
 
-[`oh-my-just-open`](https://github.com/blas0/mac-os-apps/tree/main/oh-my-just-open) — a minimal macOS default-app manager.
+[`oh-my-just-open`](https://github.com/blas0/oh-my-just-open) is a minimal macOS default-app manager.
 
 </div>
 
@@ -37,10 +37,8 @@ The app ships ad-hoc signed instead of going through Apple's Developer ID + nota
 
 Submit a PR if you have a feature/suggestion &or a bug discovered.
 
-Source of truth for this tap is [`blas0/mac-os-apps`](https://github.com/blas0/mac-os-apps)
-under `homebrew-omjo/` — open PRs there. The standalone `blas0/homebrew-omjo`
-repo exists because Homebrew requires that name for `brew tap blas0/omjo` to
-resolve; it is published to, not edited directly.
+This repository is the source of truth for the tap. Make cask changes on a
+branch and open a pull request here.
 
 **Uninstall**
 
@@ -69,4 +67,5 @@ Yes you can probably just prompt your agent to do so – but that's overrated.
 
 ## License
 
-The cask file is MIT-licensed. The app itself is also MIT — see [the upstream repo](https://github.com/blas0/mac-os-apps/blob/main/oh-my-just-open/LICENSE).
+The cask file is MIT-licensed. The app is also MIT licensed. See the
+[upstream license](https://github.com/blas0/oh-my-just-open/blob/main/LICENSE).
